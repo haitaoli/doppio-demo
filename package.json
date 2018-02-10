@@ -1,0 +1,23 @@
+{
+  "name": "java-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/buzzcoder/java-editor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/buzzcoder/java-editor/issues"
+  },
+  "homepage": "https://gitlab.com/buzzcoder/java-editor#README",
+  "devDependencies": {
+    "browserfs": "^0.5.13",
+    "doppiojvm": "^0.5.0"
+  }
+}
