@@ -1,10 +1,11 @@
 {
-  "name": "java-editor",
+  "name": "doppio-demo",
   "version": "1.0.0",
   "description": "",
   "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/http-server ."
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://gitlab.com/buzzcoder/java-editor#README",
   "devDependencies": {
     "browserfs": "^0.5.13",
-    "doppiojvm": "^0.5.0"
+    "doppiojvm": "^0.5.0",
+    "http-server": "^0.11.1"
   }
 }
